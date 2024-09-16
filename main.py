@@ -14,7 +14,7 @@ import numpy as np
 
 # Getting data from the Salary Dataset
 
-df = pd.read_csv('Data/Salary_dataset.csv', index_col=[0]) # tells Pandas the first column is used to index or label the rows so it doesn't create an extra one
+df = pd.read_csv('Salary_dataset.csv', index_col=[0]) # tells Pandas the first column is used to index or label the rows so it doesn't create an extra one
 #print(df.index) # returns index column
 #print(df.columns) # name of the columns
 #print(df.values) # data
